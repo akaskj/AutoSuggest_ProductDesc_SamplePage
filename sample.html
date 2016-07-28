@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample Demo</title>
+        <link rel="stylesheet" type="text/css" href="css/grid.css" />
+        <link type="text/css" rel="stylesheet" href="css/main.css" />
+        <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
+        <script type="text/javascript" src="js/state-autocomplete.js"></script>
+    </head>
+    <body>
+        <div class="banner">
+          <img alt="image" class="main-img" src="images/banner.jpg">
+          <div class="container-12">
+            <div class="grid-12">
+              <div class="social-icons">
+                <span>Connect: </span>
+                <a href="#"><img alt="image" src="images/fb.png"></a>
+                <a href="#"><img alt="image" src="images/pinterest.png"></a>
+                <a href="#"><img alt="image" src="images/email.png"></a>
+                <a href="#"><img alt="image" src="images/twitter.png"></a>
+                <a href="#"><img alt="image" src="images/blog.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-12">
+            <div class="grid-8 mt-35">
+                <h1>In Gravida Libero</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer enim neque, molestie ut placerat id, tincidunt in sem. Pellentesque sodales lobortis eros nec pulvinar. In ac ultrices ipsum, ultricies semper nisi. Morbi ac hendrerit nulla. Sed nec ex commodo, tincidunt felis ac, iaculis ipsum.</p>
+                <p>Morbi ac hendrerit nulla. Sed nec ex commodo, tincidunt felis ac, iaculis ipsum</p>
+            </div>
+            <div class="grid-4">
+              <div class="state-finder">
+                <h2>State Finder</h2>
+                <p>Morbi ac hendrerit nulla. Sed nec ex commodo</p> 
+                <div class="auto-pop">
+                  <div id="searchfield">
+                    <form>
+                      <input placeholder="Search Hotels" type="text" name="aka" class="biginput" id="autocomplete" autocomplete="on">
+                    </form>
+                  </div>
+                  <button class="pop-up" type="submit"></button>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="grid-12">
+              <div class="grey-container first">
+                <div class="grid-12">
+                  <h2>In Gravida</h2>
+                </div>
+                <div class="clearfix"></div>
+                <div class="grid-4">
+                  <h3>Cras ac mauris</h3>
+                  <p>nteger dictum hendrerit pharetra. Cras fermentum posuere egestas.</p>
+                  <a>Learn More</a>
+                </div>
+                <div class="grid-4">
+                  <h3>Curabitur elementum</h3>
+                  <p>Cras vel imperdiet mauris. Pellentesque libero mauris, interdum a felis et, condimentum mattis erat.</p>
+                  <a>Learn More</a>
+                </div>
+                <div class="grid-4">
+                  <h3>Awards and Recognitions</h3>
+                  <p>Aliquam eget ligula mauris. Etiam viverra non turpis eu auctor. Nullam pretium est libero, et condimentum massa egestas id. </p>
+                  <a>Learn More</a>
+                </div>
+                <div class="clearfix"></div>
+                <div class="grid-4">
+                  <h3>Morbi placerat </h3>
+                  <p> Nam feugiat ultrices ligula eget faucibus. Mauris convallis ipsum est.</p>
+                  <a>Learn More</a>
+                </div>
+                <div class="grid-4">
+                  <h3>Suspendisse eu</h3>
+                  <p>Duis pretium elementum dui, id feugiat neque facilisis vel.</p>
+                  <a>Learn More</a>
+                </div>
+                <div class="grid-4">
+                  <h3> Integer faucibus</h3>
+                  <p> Vivamus at rutrum est, eu pellentesque lacus. Curabitur imperdiet tortor sit amet enim ullamcorper, a aliquet odio rutrum.</p>
+                  <a>Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="grid-12">
+              <div class="grey-container second">
+                <div class="grid-8">
+                  <h2>Products</h2>
+                </div>
+                <div class="grid-4">
+                  <div class="filter-select">
+                    <span>Fitler by</span>
+                    <select class="range">
+                        <option value = '0'>All</option>
+                        <option value = '0-500'>Less Than $500</option>
+                        <option value = '500-1000'>From $500 to $1000</option>
+                        <option value = '1000-2000'>From $1000 to $2000</option>
+                        <option value = '2000'>$2000 or more</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="grid-3 product-grid">
+                  <div class="product-container" id="1">
+                    <h3>Product Title 1</h3>
+                    <p class="intro">Staring at $<span>500</span></p>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <img alt="image" src="images/cereal_b.jpg">
+                    <a>Learn More</a>
+                  </div>
+                </div>
+                <div class="grid-3 product-grid">
+                  <div class="product-container" id="2">
+                    <h3>Product Title 2</h3>
+                    <p class="intro">Staring at $<span>1900</span></p>
+                    <p class="desc">Donec ornare magna sit amet erat molestie sollicitudin ac vitae lectus.</p>
+                    <img alt="image" src="images/flower_b.jpg">
+                    <a>Learn More</a>
+                  </div>
+                </div>
+                <div class="grid-3 product-grid">
+                  <div class="product-container" id="3">
+                    <h3>Product Title 3</h3>
+                    <p class="intro">Staring at $<span>2730</span></p>
+                    <p class="desc">Cras non metus sed odio tristique imperdiet.</p>
+                    <img alt="image" src="images/machine_b.jpg">
+                    <a>Learn More</a>
+                  </div>
+                </div>
+                <div class="grid-3 product-grid">
+                  <div class="product-container" id="4">
+                    <h3>Product Title 4</h3>
+                    <p class="intro">Staring at $<span>731</span></p>
+                    <p class="desc">Pellentesque mattis tellus ut molestie dapibus.</p>
+                    <img alt="image" src="images/candy_b.jpg">
+                    <a>Learn More</a>
+                  </div>
+                </div>
+                <div class="grid-12 product-desc-container">
+                  <div class="grid-12">
+                    <h2>Product Title 1</h2>
+                    <p class="intro">Starting at $500</p>
+                    <img alt="image" class="desc-close" src="images/close.png">
+                  </div>
+                  <div class="grid-6">
+                    <p class="desc">
+                      Cras a ante eget dui dignissim molestie nec non lectus. Donec id sapien tristique, iaculis odio a, gravida ligula. In hac habitasse platea dictumst. Praesent non lacus elit. Sed convallis erat sem, ac egestas ipsum tempor in. Sed consectetur ex at dolor ullamcorper vulputate. Ut tristique ipsum velit, eget pretium ipsum dictum vel. Aenean ut tempus elit, non facilisis odio. Vivamus hendrerit ipsum vel risus ultrices, ut ornare metus ornare. Quisque semper ante ac pellentesque vestibulum. Cras a massa turpis. Pellentesque congue leo velit, non porta dui euismod nec.<br> <br> Mauris sed enim risus. Quisque mollis justo quis commodo euismod. Nullam non massa in lorem cursus sagittis. Sed laoreet felis mauris, a eleifend sapien molestie eget. Duis at volutpat elit. Phasellus sit amet erat ut libero lobortis sollicitudin pellentesque ac lectus. Phasellus venenatis ultrices justo nec venenatis.<br>
+                      
+                    </p>
+                    <a>Buy Online</a>
+                  </div>
+                  <div class="grid-6 image-grid">
+                    <img alt="image" class="image" src="images/cereal_b.jpg">
+                    <span class="first-indicator"></span>
+                    <span class="second-indicator"></span>
+                    <span class="third-indicator"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+        <div class="custom-overlay"> </div>
+        <div class="popup-content">
+          <h1>North Carolina</h1><img alt="image" class="pop-close" src="images/close.png">
+          <p>Etiam gravida puru est, sed vestibulum erat rutrum in. Aliquam elementum augue ligula, at consequat dolor semper vitae. Integer velit purus,suscipit sit amet nunx id, faucibus pulvinar metus</p>
+        </div>
+        <div class="autocomplete-suggestions" style="position: absolute; display: none; width: 600px; top: 245px; left: 649.5px; max-height: 300px; z-index: 9999;"></div>
+    </body>
+</html>
