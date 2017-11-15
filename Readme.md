@@ -1,6 +1,6 @@
-## AutoSuggest with product description and responsiveness
+# AutoSuggest with product description and responsiveness
 
-# Instructions and Usage:
+## Instructions and Usage:
 
 This is a sample code to demonstrate
 
